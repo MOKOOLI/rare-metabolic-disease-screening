@@ -1,0 +1,56 @@
+{
+  "data": {
+    "n_samples": 12400,
+    "n_positive": 400,
+    "n_test": 2480,
+    "n_test_positive": 80,
+    "synthetic": true
+  },
+  "best_model": "ExtraTrees + pca_jitter",
+  "target_sensitivity": 0.97,
+  "test_ML": {
+    "sensitivity": 0.9625,
+    "specificity": 0.95625,
+    "FNR": 0.0375,
+    "FPR": 0.04375,
+    "PPV": 0.4230769230769231,
+    "TP": 77,
+    "FP": 105,
+    "FN": 3,
+    "TN": 2295,
+    "ROC_AUC": 0.9912760416666666,
+    "PR_AUC": 0.9157804694782805,
+    "threshold": 0.07741666666566666
+  },
+  "test_classic_cutoff": {
+    "sensitivity": 0.95,
+    "specificity": 0.9545833333333333,
+    "FNR": 0.05,
+    "FPR": 0.04541666666666667,
+    "PPV": 0.41081081081081083,
+    "TP": 76,
+    "FP": 109,
+    "FN": 4,
+    "TN": 2291,
+    "ROC_AUC": 0.9522916666666668,
+    "PR_AUC": 0.3918831734960767,
+    "threshold": 0.5
+  },
+  "test_two_tier": {
+    "sensitivity": 0.9375,
+    "specificity": 0.9729166666666667,
+    "FNR": 0.0625,
+    "FPR": 0.027083333333333334,
+    "PPV": 0.5357142857142857,
+    "TP": 75,
+    "FP": 65,
+    "FN": 5,
+    "TN": 2335,
+    "ROC_AUC": 0.9552083333333333,
+    "PR_AUC": 0.5042482718894009,
+    "threshold": 0.5
+  },
+  "two_tier_model": "SVM_RBF + none",
+  "disorder_top1_accuracy": 1.0,
+  "runtime_s": 218.8
+}

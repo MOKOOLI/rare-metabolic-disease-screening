@@ -1,0 +1,16 @@
+group,n,flagged_by_cutoff_%,flagged_by_ML_%,flagged_by_two_tier_%
+confounder:carrier,112,15.2,10.7,8.9
+confounder:premature,123,3.3,0.8,0.8
+confounder:TPN,78,12.8,3.8,7.7
+confounder:pivalate,34,52.9,94.1,44.1
+confounder:MCT_oil,21,71.4,71.4,42.9
+healthy:no confounder,2032,2.2,2.1,1.2
+disorder:PKU,10,100.0,100.0,100.0
+disorder:MSUD,10,100.0,100.0,100.0
+disorder:TYR1,10,100.0,100.0,100.0
+disorder:PA_MMA,10,100.0,100.0,100.0
+disorder:MCADD,10,90.0,90.0,80.0
+disorder:CIT1,10,100.0,100.0,100.0
+disorder:GA1,10,90.0,90.0,90.0
+disorder:IVA,10,80.0,90.0,80.0
+phenotype:mild,16,81.2,87.5,81.2

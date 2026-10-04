@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use this project, please cite it as below."
+authors:
+  - family-names: "YOUR_LAST_NAME"
+    given-names: "YOUR_FIRST_NAME"
+    # orcid: "https://orcid.org/XXXX-XXXX-XXXX-XXXX"
+title: "Rare Metabolic Disease Screening AI Pipeline (LC-HR-MS)"
+version: 1.0.0
+date-released: 2026-10-04
+repository-code: "https://github.com/MOKOOLI/rare-metabolic-disease-screening"
+license: MIT
+keywords: [metabolomics, LC-MS, inborn errors of metabolism, newborn screening, machine learning, clinical biochemistry]

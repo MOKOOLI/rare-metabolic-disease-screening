@@ -1,0 +1,22 @@
+# large / regenerated data
+data/raw/*.mzML
+data/raw/*.mzXML
+data/raw/feature_table.csv
+data/raw/sample_metadata.csv
+data/processed/*.csv
+*.h5
+*.hdf5
+# envs
+venv/
+.venv/
+env/
+# python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.pytest_cache/
+# os / ide
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
